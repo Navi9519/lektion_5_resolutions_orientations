@@ -5,3 +5,57 @@
     color: red;
   }
 }
+
+/* Flexbox Practise */
+
+/* flex-direction: 
+row
+row-reverse
+column
+column-reverse
+*/
+
+/* flex-wrap: wrap 
+controls direction and multiline of items
+*/
+
+/* 
+background-color -> very good for debugging, space for element and styles)∏
+*/
+
+/* 
+justify-content 
+space / positioning
+*/
+
+.container {
+  display: flex;
+  background-color: deepskyblue;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.container > p {
+  color: black;
+  background-color: blanchedalmond;
+  font-size: 2rem;
+  margin: 1rem;
+  padding: 1em;
+}
+
+/* Grid practice */
+
+.grid_container {
+  background-color: skyblue;
+  display: grid;
+  column-gap: 50px;
+  row-gap: 50px;
+  grid-template-columns: auto auto auto auto;
+}
+
+.grid_container > p {
+  background-color: black;
+  color: white;
+  font-size: 2rem;
+}
